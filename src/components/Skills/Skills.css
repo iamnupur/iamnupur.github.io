@@ -1,0 +1,108 @@
+/* lottiefiles */
+
+.skill-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 20%;
+}
+
+.my-resume-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.resume-button {
+    width: 50px;
+    filter: drop-shadow(0px 8px 8px rgba(46, 33, 33, 0.5));
+}
+
+.resume-button:hover {
+    width: 50px;
+    filter: drop-shadow(0px 12px 12px rgba(46, 33, 33, 0.75));
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill > img {
+    width: 108px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.skill > p {
+    font-family: monospace;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000;
+    margin: 0;
+}
+
+.skills-vector-frame {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+    width: 80%;
+}
+
+.skills-vector {
+    max-height: 100%;
+    width: 100%;
+}
+
+/* Certificate container */
+
+.certificate-sub-head {
+    margin: 0;
+}
+
+.certificate-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 80px 20%;
+}
+
+.normal-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* small screen */
+
+@media only screen and (max-width: 640px) {
+    .skills-vector-frame {
+        width: 90%;
+    }
+    .skill-card-container {
+        margin: 80px 10%;
+    }
+}
