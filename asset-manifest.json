@@ -1,30 +1,39 @@
 {
   "files": {
     "main.css": "/static/css/main.45360409.chunk.css",
-    "main.js": "/static/js/main.f473a57d.chunk.js",
-    "main.js.map": "/static/js/main.f473a57d.chunk.js.map",
+    "main.js": "/static/js/main.28db5f80.chunk.js",
+    "main.js.map": "/static/js/main.28db5f80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/js/2.eda6380d.chunk.js": "/static/js/2.eda6380d.chunk.js",
-    "static/js/2.eda6380d.chunk.js.map": "/static/js/2.eda6380d.chunk.js.map",
+    "static/js/2.c3cefe50.chunk.js": "/static/js/2.c3cefe50.chunk.js",
+    "static/js/2.c3cefe50.chunk.js.map": "/static/js/2.c3cefe50.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.45360409.chunk.css.map": "/static/css/main.45360409.chunk.css.map",
-    "static/js/2.eda6380d.chunk.js.LICENSE.txt": "/static/js/2.eda6380d.chunk.js.LICENSE.txt",
+    "static/js/2.c3cefe50.chunk.js.LICENSE.txt": "/static/js/2.c3cefe50.chunk.js.LICENSE.txt",
     "static/media/Nupur.9e5d4efa.jpg": "/static/media/Nupur.9e5d4efa.jpg",
     "static/media/about_anime.48478cfa.gif": "/static/media/about_anime.48478cfa.gif",
     "static/media/about_vector.c42fe3db.png": "/static/media/about_vector.c42fe3db.png",
     "static/media/contact_anime.1f3936c4.png": "/static/media/contact_anime.1f3936c4.png",
     "static/media/cross-button.5cc943d2.png": "/static/media/cross-button.5cc943d2.png",
+    "static/media/editing.8e82d762.png": "/static/media/editing.8e82d762.png",
     "static/media/fb.795fce8e.png": "/static/media/fb.795fce8e.png",
     "static/media/home_anime.509a0820.gif": "/static/media/home_anime.509a0820.gif",
     "static/media/ig.75e0546a.png": "/static/media/ig.75e0546a.png",
+    "static/media/language.1ffa43bd.png": "/static/media/language.1ffa43bd.png",
     "static/media/menu_button.c779ec8d.png": "/static/media/menu_button.c779ec8d.png",
-    "static/media/skills_vector.1fb5f4a4.png": "/static/media/skills_vector.1fb5f4a4.png"
+    "static/media/painting.c39f0208.png": "/static/media/painting.c39f0208.png",
+    "static/media/painting01.46aa382d.jpg": "/static/media/painting01.46aa382d.jpg",
+    "static/media/painting02.10465d4c.jpg": "/static/media/painting02.10465d4c.jpg",
+    "static/media/painting03.7d276e62.jpg": "/static/media/painting03.7d276e62.jpg",
+    "static/media/painting04.0cd951fe.jpg": "/static/media/painting04.0cd951fe.jpg",
+    "static/media/singing.b936aac5.png": "/static/media/singing.b936aac5.png",
+    "static/media/skills_vector.1fb5f4a4.png": "/static/media/skills_vector.1fb5f4a4.png",
+    "static/media/writing.13990674.png": "/static/media/writing.13990674.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
-    "static/js/2.eda6380d.chunk.js",
+    "static/js/2.c3cefe50.chunk.js",
     "static/css/main.45360409.chunk.css",
-    "static/js/main.f473a57d.chunk.js"
+    "static/js/main.28db5f80.chunk.js"
   ]
 }
