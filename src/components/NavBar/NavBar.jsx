@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                     Home
                 </Link>
                 <Link to='/about' className={`menu-item ${aboutClass}`}>
-                    About &#38; Achievements
+                    About
                 </Link>
                 <Link to='/projects' className={`menu-item ${projectsClass}`}>
                     Projects

@@ -35,29 +35,16 @@ class Home extends Component {
 
                 <div className="landing-container">
                     <div data-aos="fade-right" className="landing-left">
-                        <h1 className="landing-header">Hey! I am Swaraj</h1>
+                        <h1 className="landing-header">Hey there! I am Nupur</h1>
                         <div className="typewriter-container">
                             <Typewriter
                                 options={{
-                                    strings: ["Programmer!", "Developer!", "Learner!", "Friend!"],
+                                    strings: ["Linguist!", "Artist!", "Painter!", "Learner!"],
                                     autoStart: true,
                                     loop: true,
                                 }}
                             />
                         </div>
-                    </div>
-                    <br /><br />
-                    <div data-aos="fade-right" className="placed landing-left">
-                        <h1 className='landing-header'>Placed at -</h1>
-                            <div className="typewriter-container">
-                                <Typewriter
-                                    options={{
-                                        strings: ["Accenture (Advanced ASE)", "Wipro (Turbo)", "Cognizant (GenC Elevate)", "Capgemini (Analyst)", "Infosys (System Engineer)", "Revature (SWE)"],
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
-                            </div>
                     </div>
                 </div>
                 <div className="head-btns">
@@ -67,15 +54,17 @@ class Home extends Component {
                     <Link to="/contact" className="btn btn-transparent">
                         <p className="btn-text">Contact with me</p>
                     </Link>
-                    <a href="https://drive.google.com/drive/folders/1BCPtVYge5c4aM4Lk2LyuldH46E3DUbZx?usp=sharing" className="btn btn-white">
+                    {/* <a href="" className="btn btn-white">
                             <p className="btn-text">Download my CV</p>
-                    </a>
+                    </a> */}
                 </div>
                 <div className="splash-image">
                     <img
                         src={homeAnime}
                         alt="animation"
-                        className="home-anime" />
+                        className="home-anime" 
+                        style={{ width: '500px', height: 'auto' }}
+                        />
                 </div>
 
 
