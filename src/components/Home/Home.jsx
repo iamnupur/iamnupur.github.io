@@ -27,7 +27,7 @@ class Home extends Component {
         return (
             <div className="home-container">
                 {/* {this.state.showModal && < Modal closeModal={this.closeModal} />} */}
-                <div className="header-text glow">
+                <div className="header-text">
                     <h1>Hello World</h1>
                     <p></p>
                     <br />
@@ -39,7 +39,7 @@ class Home extends Component {
                         <div className="typewriter-container">
                             <Typewriter
                                 options={{
-                                    strings: ["Linguist!", "Artist!", "Painter!", "Learner!"],
+                                    strings: ["Artist!", "Linguist!", "Painter!", "Learner!"],
                                     autoStart: true,
                                     loop: true,
                                 }}

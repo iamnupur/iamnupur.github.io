@@ -62,7 +62,7 @@ const About = () => {
                         <tbody>
                             <tr>
                             <th scope="row">1</th>
-                            <td data-label="College">University Name</td>
+                            <td data-label="University">University Name</td>
                             <td data-label="Degree">Master of Arts in English Literature</td>
                             <td data-label="University">University name</td>
                             <td data-label="CGPA">XX</td>
