@@ -11,7 +11,7 @@ const ProjectCard = ({
         <div className="project-card">
             <div className="image-container">
                     <img
-                        src='https://github.com/iamnupur/iamnupur.github.io/blob/master/src/assets/painting01.jpg'
+                        src={imageUrl}
                         alt='project'
                         className='project-image'
                     />
