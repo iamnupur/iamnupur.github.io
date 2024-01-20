@@ -39,7 +39,7 @@ class Home extends Component {
                         <div className="typewriter-container">
                             <Typewriter
                                 options={{
-                                    strings: ["Artist!", "Linguist!", "Painter!", "Learner!"],
+                                    strings: ["Educator!", "Artist!", "Linguist!", "Painter!", "Learner!"],
                                     autoStart: true,
                                     loop: true,
                                 }}

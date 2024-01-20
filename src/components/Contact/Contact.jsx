@@ -6,6 +6,7 @@ import contactVector from './../../assets/contact_anime.png';
 import ig from './../../assets/ig.png';
 import web from './../../assets/web.png';
 import fb from './../../assets/fb.png';
+import email from './../../assets/email.png';
 import nupur from './../../assets/Nupur.jpg';
 
 const Contact = () => {
@@ -50,6 +51,9 @@ const Contact = () => {
 
             {/* Social icons */}
             <div className="social-icons-container">
+                <a href="mailto:nupursinghmodak@gmail.com" className="social-icon">
+                    <img src={email} alt="social" className="s_icon_img" />
+                </a>
                 <a href="https://www.instagram.com/art_within_the_heart" className="social-icon">
                     <img src={ig} alt="social" className="s_icon_img" />
                 </a>

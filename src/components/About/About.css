@@ -29,6 +29,21 @@
     margin: 0;
 }
 
+.about-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+    justify-content: flex-start;
+}
+
+.about-bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 10px 20px 10px;
+}
+
 .about-details {
     margin: 10px 0 32px 0;
     font-family: roboto;

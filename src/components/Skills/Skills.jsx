@@ -3,6 +3,14 @@ import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import './Skills.css';
 import skillsVector from './../../assets/skills_vector.png'
+import communication from './../../assets/communication.png';
+import creativity from './../../assets/creativity.png';
+import randa from './../../assets/randa.png';
+import curiosity from './../../assets/curiosity.png';
+import problemsolving from './../../assets/problem-solving.png';
+import atod from './../../assets/atod.png';
+import culture from './../../assets/culture.png';
+import learning from './../../assets/learning.png';
 import writing from './../../assets/writing.png';
 import singing from './../../assets/singing.png';
 import language from './../../assets/language.png';
@@ -20,6 +28,70 @@ const Skills = () => {
 
 
             <div className="skill-card-container">
+
+                <div className="skill">
+                    <img src={communication}
+                        alt="skill"
+                    />
+                    <p>Communication</p>
+                </div>
+
+                <div className="skill">
+                    <img src={randa}
+                        alt="skill"
+                    />
+                    <p>Research and Analysis</p>
+                </div>
+
+                <div className="skill">
+                    <img src={creativity}
+                        alt="skill"
+                    />
+                    <p>Creativity</p>
+                </div>
+
+                <div className="skill">
+                    <img src={language}
+                        alt="skill"
+                    />
+                    <p>Language Proficiency</p>
+                </div>
+
+                <div className="skill">
+                    <img src={curiosity}
+                        alt="skill"
+                    />
+                    <p>Curiosity</p>
+                </div>
+
+                <div className="skill">
+                    <img src={problemsolving}
+                        alt="skill"
+                    />
+                    <p>Problem Solving</p>
+                </div>
+
+                <div className="skill">
+                    <img src={atod}
+                        alt="skill"
+                    />
+                    <p>Attention to Details</p>
+                </div>
+
+                <div className="skill">
+                    <img src={culture}
+                        alt="skill"
+                    />
+                    <p>Cultural Sensitivity</p>
+                </div>
+
+                <div className="skill">
+                    <img src={learning}
+                        alt="skill"
+                    />
+                    <p>Independent Learning</p>
+                </div>
+
                 <div className="skill">
                     <img src={painting}
                         alt="skill"
@@ -32,13 +104,6 @@ const Skills = () => {
                         alt="skill"
                     />
                     <p>Digital Art</p>
-                </div>
-
-                <div className="skill">
-                    <img src={language}
-                        alt="skill"
-                    />
-                    <p>English</p>
                 </div>
 
                 <div className="skill">
@@ -58,17 +123,17 @@ const Skills = () => {
 
             </div>
 
-            <div className="certificate-container normal-font">
+            {/* <div className="certificate-container normal-font">
                 <h3 className="certificate-sub-head">Certification </h3>
                 <li><a href="/">Certificate Name and Details 1</a></li>
                 <li><a href="/">Certificate Name and Details 2</a></li>
                 <li><a href="/">Certificate Name and Details 3</a></li>
                 <li><a href="/">Certificate Name and Details 4</a></li>
 
-            </div>
+            </div> */}
 
             < FooterLink
-                phrase="Get in " link="touch." toAdress="/contact"
+                phrase="Get in " link="touch!" toAdress="/contact"
             />
 
             <div className="skills-vector-frame">

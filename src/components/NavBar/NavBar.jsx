@@ -11,8 +11,8 @@ class NavBar extends React.Component {
 
         const homeClass = location.pathname === '/' ? 'active-item' : '';
         const aboutClass = location.pathname === '/about' ? 'active-item' : '';
-        const projectsClass =
-            location.pathname === '/projects' ? 'active-item' : '';
+        // const projectsClass =
+        //     location.pathname === '/projects' ? 'active-item' : '';
         const skillsClass =
             location.pathname === '/skills' ? 'active-item' : '';
         const contactClass =
@@ -37,9 +37,9 @@ class NavBar extends React.Component {
                 <Link to='/about' className={`menu-item ${aboutClass}`}>
                     About
                 </Link>
-                <Link to='/projects' className={`menu-item ${projectsClass}`}>
+                {/* <Link to='/projects' className={`menu-item ${projectsClass}`}>
                     Projects
-                </Link>
+                </Link> */}
                 <Link to='/skills' className={`menu-item ${skillsClass}`}>
                     Skills
                 </Link>
